@@ -8,7 +8,7 @@ import React from "react";
 const Button = ({ type, text }) => {
   return (
     <>
-      <button>{`Button type ${type} with text ${text}`}</button>
+      <button className={`button ${type}`}>{text}</button>
     </>
   );
 };

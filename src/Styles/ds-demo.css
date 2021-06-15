@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  /* primary colors */
+  --green99: #85c440;
+  --dark: #43435c;
+  --gray50: #bfbfbf;
+  /* secondary colors */
+  --mint: #3fc468;
+  /* colors pallette */
+  --white: #ffffff;
+}
+
+/*=============================================
+=                Fonts Section                =
+=============================================*/
+
+.tx-green {
+  color: var(--green99);
+}
+
+h3, .h3 {
+  margin: 1em 0;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.body1 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/*=====      End of Fonts Section      ======*/
+
+.button {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .15px;
+  padding: 8.03px 21.03px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 200ms;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button:hover, .button:active {
+  cursor: pointer;
+}
+
+.primary {
+  border: 1px solid var(--green99);
+  background-color: var(--green99);
+  color: var(--white);
+}
+
+.secondary {
+  border: 1px solid var(--gray50);
+  background-color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--mint);
+  transform: scale(1.025);
+}
+
+.secondary:hover {
+  border: 1px solid var(--dark);
+}
+
+.primary:active {
+  transform: scale(0.975);
+}
+
+.secondary:active {
+  transform: scale(0.975);
+}

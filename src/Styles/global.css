@@ -1,0 +1,41 @@
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--dark);
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-container {
+  display: flex;
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.fx-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  padding: 16px;
+  flex-direction: column;
+  max-width: 576px;
+  border: dashed 1px var(--gray50);
+}
+
+@media (max-width: 768px) {
+  .fx-container {
+    flex-direction: column;
+  }
+}
