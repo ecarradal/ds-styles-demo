@@ -34,7 +34,7 @@ body,
   border: dashed 1px var(--gray50);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .fx-container {
     flex-direction: column;
   }
